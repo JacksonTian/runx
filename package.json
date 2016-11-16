@@ -1,0 +1,27 @@
+{
+  "name": "runx",
+  "version": "1.0.0",
+  "description": "Run a job",
+  "main": "lib/runx.js",
+  "scripts": {
+    "test": "mocha -R spec ./test/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JacksonTian/runx.git"
+  },
+  "keywords": [
+    "Job"
+  ],
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacksonTian/runx/issues"
+  },
+  "homepage": "https://github.com/JacksonTian/runx#readme",
+  "dependencies": {
+    "co": "^4.6.0",
+    "debug": "^2.3.2"
+  },
+  "files": ["lib"]
+}
